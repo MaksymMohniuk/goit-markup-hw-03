@@ -1,0 +1,213 @@
+:root {
+  --text-color-secondary: #757575;
+  --accent-color: #2196f3;
+  --background-color: #2f303a;
+  --logo-wrap-color: #000000;
+  --text-color-primary: #ffffff;
+  --main-text-color: #212121;
+  --background-color-primary: #f5f5f5;
+  --btn-hover-focus-accent: #188ce8;
+  --btn-background-color: #2196f3;
+  --portfolio-btn-bgc: #f5f4fa;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--text-color-primary);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.link-logo.current {
+  color: var(--accent-color);
+}
+
+.menu-link.current {
+  color: var(--accent-color);
+}
+
+button {
+  cursor: pointer;
+}
+
+.link-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.link-logo-wrap {
+  color: var(--logo-wrap-color);
+}
+
+.link-logo-wrap-footer {
+  color: var(--text-color-primary);
+}
+
+.menu-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.menu-link-mail,
+.menu-link-tel {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color-secondary);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.menu-link-mail:hover,
+.menu-link-mail:focus {
+  color: var(--accent-color);
+}
+
+.menu-link-tel:hover,
+.menu-link-tel:focus {
+  color: var(--accent-color);
+}
+
+.hero-section,
+.footer-section {
+  background-color: var(--background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-color-primary);
+}
+
+.modal-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-color-primary);
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: var(--btn-background-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--btn-hover-focus-accent);
+}
+
+.hidden-section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-description {
+  line-height: 1.71;
+  color: var(--text-color-secondary);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.list-item {
+  background-color: #ffffff;
+}
+
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.employee-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--text-color-secondary);
+}
+
+.firm-address {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--text-color-primary);
+}
+
+.menu-link-footer {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--footer-text-color);
+}
+
+.menu-link-footer:hover,
+.menu-link-footer:focus {
+  color: var(--accent-color);
+}
+
+/* Портфоліо */
+
+.portfolio-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: var(--portfolio-btn-bgc);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--text-color-primary);
+  background-color: var(--accent-color);
+}
+
+.portfolio-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.portfolio-list-description {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--text-color-secondary);
+}
