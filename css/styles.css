@@ -12,6 +12,19 @@
   --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
@@ -26,6 +39,13 @@ body {
 
 .list {
   list-style: none;
+}
+
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .link-logo.current {
@@ -91,6 +111,10 @@ button {
   background-color: var(--background-color);
 }
 
+.hero-section {
+  padding: 200px 452px;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -99,6 +123,8 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color-primary);
+  max-width: 696px;
+  margin-bottom: 30px;
 }
 
 .modal-btn {
@@ -114,6 +140,8 @@ button {
   border-color: transparent;
   border-radius: 4px;
   background-color: var(--btn-background-color);
+  margin: 0 auto;
+  display: block;
 }
 
 .modal-btn:hover,
