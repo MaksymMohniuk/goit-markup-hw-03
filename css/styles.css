@@ -278,15 +278,25 @@ padding: 30px 83px;
   color: var(--accent-color);
 }
 
-.footer-section {
-  padding: 60px 1154px 60px 215px;
-}
-
 .footer-address {
   margin-top: 20px;
 }
 
 /* Портфоліо */
+
+.btn-list {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+  margin-top: 34px;
+}
 
 .portfolio-btn {
   font-family: "Roboto", sans-serif;
@@ -317,4 +327,8 @@ padding: 30px 83px;
   font-size: 16px;
   line-height: 1.88;
   color: var(--text-color-secondary);
+}
+
+.portfolio-wrap {
+  padding: 20px 24px;
 }
