@@ -23,6 +23,8 @@ ul, ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -42,7 +44,7 @@ body {
 }
 
 .container .header-container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -66,8 +68,8 @@ button {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-right: 93px;
 }
 
@@ -148,7 +150,7 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color-primary);
-  max-width: 696px;
+  min-width: 696px;
   margin-bottom: 30px;
 }
 
@@ -174,11 +176,23 @@ button {
   background-color: var(--btn-hover-focus-accent);
 }
 
+.about {
+  padding: 94px 215px;
+}
+
+.hidden-section {
+  display: flex;
+  flex-basis: calc(100% / 4 - 30px);
+  gap: 30px;
+  min-width: 270px;
+}
+
 .hidden-section-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .section-description {
@@ -186,15 +200,34 @@ button {
   color: var(--text-color-secondary);
 }
 
+.we-work {
+  padding: 94px 215px;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title-list {
+  display: flex;
+  gap: 30px;
+  min-width: 370px;
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 .team {
   background-color: #f5f4fa;
+  padding: 94px 215px;
+}
+
+.team-section-list {
+  display: flex;
+  gap: 30px;
+  flex-basis: calc(100% / 4 - 30px);
 }
 
 .list-item {
@@ -206,6 +239,7 @@ button {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .employee-position {
@@ -213,6 +247,18 @@ button {
   line-height: 1.19;
   text-align: center;
   color: var(--text-color-secondary);
+}
+
+.team-section-list-wrapper-one {
+padding: 30px 70px;
+}
+
+.team-section-list-wrapper-two {
+padding: 30px 83px;
+}
+
+.team-section-list-wrapper-three {
+  padding: 30px 62px;
 }
 
 .firm-address {
@@ -230,6 +276,14 @@ button {
 .menu-link-footer:hover,
 .menu-link-footer:focus {
   color: var(--accent-color);
+}
+
+.footer-section {
+  padding: 60px 1154px 60px 215px;
+}
+
+.footer-address {
+  margin-top: 20px;
 }
 
 /* Портфоліо */
