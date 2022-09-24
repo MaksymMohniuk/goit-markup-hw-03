@@ -41,7 +41,7 @@ body {
   list-style: none;
 }
 
-.container {
+.container .header-container {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
@@ -66,6 +66,9 @@ button {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
 }
 
 .link-logo-wrap {
@@ -74,6 +77,28 @@ button {
 
 .link-logo-wrap-footer {
   color: var(--text-color-primary);
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.list-menu {
+  display: flex;
+  gap: 50px;
+}
+
+.header-contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 50px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .menu-link {
