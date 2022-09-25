@@ -43,7 +43,7 @@ body {
   list-style: none;
 }
 
-.container .header-container {
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -60,6 +60,10 @@ body {
 
 button {
   cursor: pointer;
+}
+
+.page-header {
+  border: 1px solid #ececec;
 }
 
 .link-logo {
@@ -96,11 +100,6 @@ button {
   align-items: center;
   margin-left: auto;
   gap: 50px;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
 }
 
 .menu-link {
@@ -140,15 +139,16 @@ button {
 
 .hero-section {
   padding: 200px 452px;
+  justify-content: center;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
   color: var(--text-color-primary);
   min-width: 696px;
   margin-bottom: 30px;
@@ -251,26 +251,43 @@ button {
 
 .team-section-list-wrapper-one {
 padding: 30px 70px;
+text-align: center;
 }
 
 .team-section-list-wrapper-two {
 padding: 30px 83px;
+text-align: center;
 }
 
 .team-section-list-wrapper-three {
   padding: 30px 62px;
+  text-align: center;
+}
+
+.footer-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .firm-address {
   font-style: normal;
   line-height: 1.71;
   color: var(--text-color-primary);
+  display: block;
+  margin-bottom: 9px;
 }
 
 .menu-link-footer {
   font-style: normal;
   line-height: 1.71;
   color: var(--footer-text-color);
+  display: block;
+  margin-bottom: 9px;
 }
 
 .menu-link-footer:hover,
@@ -288,6 +305,11 @@ padding: 30px 83px;
   display: flex;
   gap: 8px;
   justify-content: center;
+}
+
+.portfolio-link {
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .portfolio-list {
@@ -330,5 +352,6 @@ padding: 30px 83px;
 }
 
 .portfolio-wrap {
+  flex-direction: column;
   padding: 20px 24px;
 }
