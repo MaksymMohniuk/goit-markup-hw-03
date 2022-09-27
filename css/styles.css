@@ -200,7 +200,7 @@ button {
   gap: 30px;
 }
 .hidden-section-item {
-  flex-basis: calc(100% - 90px) / 4;
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .hidden-section-item-title {
